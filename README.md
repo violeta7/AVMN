@@ -2,7 +2,7 @@
 
 This is the implementation for my paper: "AVMN: Deep Learning for Forecasting Taxi Demands using Extremely Sparse Trip Records."
 This has AVMN's sourcecode, as well as my implementation of TGNet (for performance comparison).
-Original TGNet sourcecode implemented by its author can be found here: https://github.com/LeeDoYup/TGGNet-keras
+I have refered the original TGNet implementation a lot for my implemetation of TGNet. Original TGNet sourcecode implemented by its author can be found here: https://github.com/LeeDoYup/TGGNet-keras
 
 1. './datasets_expscale_both/' includes volume maps for NYC TLC from Jan. 2015 to Mar. 2015.
     - train (00:00 Jan. 1st ~ 00:00 Feb. 9th 2015)
