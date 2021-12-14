@@ -1,4 +1,4 @@
-# AVMN (Accumulative  Volume  Map  Network)
+# Accumulative  Volume  Map  Network (AVMN)
 
 This is the implementation for my paper: "AVMN: Deep Learning for Forecasting Taxi Demands using Extremely Sparse Trip Records."
 It is a deep learning model for taxi demand forecasting using novel AVM data strucutre and graph neural network using GN Block.
@@ -46,3 +46,7 @@ This also includes my implementation of TGNet (for performance comparison). I ha
 
 ## Contact
 Keeyoung Kim (kykim@sunykorea.ac.kr), Siho Han
+
+Ingenio AI Co.,LTD. ![ScreenShot](/.assets/kornatus_logo.png)
+Kornatus Co.,Ltd. ![ScreenShot](/.assets/ingenioai_logo.png)
+
