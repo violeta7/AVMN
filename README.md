@@ -2,7 +2,7 @@
 
 This is the implementation for my paper: "AVMN: Deep Learning for Forecasting Taxi Demands using Extremely Sparse Trip Records."
 It is a deep learning model for taxi demand forecasting using novel AVM data strucutre and graph neural network using GN Block.
-![ScreenShot](/.assets/avmn0.png)
+![Model Structure](/.assets/avmn0.png)
 This also includes my implementation of TGNet (for performance comparison). I have refered the original TGNet implementation a lot for my implemetation. The original TGNet sourcecode implemented by its author can be found here: https://github.com/LeeDoYup/TGGNet-keras
 
 1. './datasets_expscale_both/' includes volume maps for NYC TLC from Jan. 2015 to Mar. 2015, which are downloaded from official NYC TLC homepage (https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) and preprocessed into normal volume map.
@@ -47,6 +47,6 @@ This also includes my implementation of TGNet (for performance comparison). I ha
 ## Contact
 Keeyoung Kim (kykim@sunykorea.ac.kr), Siho Han
 
-Ingenio AI Co.,LTD. ![ScreenShot](/.assets/kornatus_logo.png)
-Kornatus Co.,Ltd. ![ScreenShot](/.assets/ingenioai_logo.png)
+Ingenio AI Co.,LTD. <img src="/.assets/kornatus_logo.png" align="left" height="100">
+Kornatus Co.,Ltd. <img src="/.assets/ingenioai_logo.png" align="left" height="100">
 
