@@ -1,7 +1,7 @@
 # AVMN (Accumulative  Volume  Map  Network)
 
 This is the implementation for my paper: "AVMN: Deep Learning for Forecasting Taxi Demands using Extremely Sparse Trip Records."
-It is a deep learning model for taxi demand forecasting using novel AVM (Accumulative Volume Map) and Graph Neural Network using GN Block.
+It is a deep learning model for taxi demand forecasting using novel AVM data strucutre and graph neural network using GN Block.
 ![ScreenShot](/.assets/avmn0.png)
 This also includes my implementation of TGNet (for performance comparison). I have refered the original TGNet implementation a lot for my implemetation. The original TGNet sourcecode implemented by its author can be found here: https://github.com/LeeDoYup/TGGNet-keras
 
