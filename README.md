@@ -43,4 +43,4 @@ This also includes my implementation of TGNet (for performance comparison). I ha
 6. I CANNOT provide KORNATUS and MyTaxi dataset, because they are belong to each companies. Training code for KORNATUS and MyTaxi is not different except they have different number of cells in their volume map. Seoul has 15x20 cells, and Tashkent has 34x34 cells.
 
 ## Contact
-Keeyoung Kim (kykim@sunykorea.ac.kr)
+Keeyoung Kim (kykim@sunykorea.ac.kr), Siho Han
