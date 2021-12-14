@@ -47,5 +47,5 @@ This also includes my implementation of TGNet (for performance comparison). I ha
 ## Contact
 Keeyoung Kim (kykim@sunykorea.ac.kr), Siho Han
 
-<img src="/.assets/ingenioai_logo.png" height="48">       <img src="/.assets/kornatus_logo1.png" height="36">
+<img src="/.assets/ingenioai_logo1.png" height="48">       <img src="/.assets/kornatus_logo1.png" height="36">
 
