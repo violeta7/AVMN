@@ -14,10 +14,10 @@ This also includes my implementation of TGNet (for performance comparison). I ha
 2. 'data_gen8+9 final.ipynb' provides Sampling and creating training example processes. Set mode = ['train'/'test'/'test2'], sampl_rate = [1.0, 0.5, 0.2, 0.1, 0.05, 0.01, 0.001] and label_smoothing = False, then 'Restart and Run all.' Please note that the files for the 0.15% sampling case (sampl_rate=0.001) has 0% in their filename. Pre-created training examples are in in_and_out3_x.tar.gz file. Because file size cannot exceed 100MB, we only include training examples for [5%, 1%, 0.15%] sampling rate.
     ```python
     # parameters
-    mode = 'test2'        # ['train', 'test', 'test2']
-    sampl_rate = 0.001    # [1.0, 0.5, 0.2, 0.1, 0.05, 0.01, 0.001]
+    mode = 'test2'              # ['train', 'test', 'test2']
+    sampl_rate = 0.001          # [1.0, 0.5, 0.2, 0.1, 0.05, 0.01, 0.001]
     # label smoothing parameters
-    label_smoothing = False #True     # [True, False]
+    label_smoothing = False     # [True, False]
     ```
 
 3. Train. main_v8.py for AVMN and main_v9.py for TGNet. You can see training options using --help options. What you have to set is just --sampling_rate = [100%, 50%, 20%, 10%, 5%, 1% ,0.15%] options.
@@ -47,5 +47,5 @@ This also includes my implementation of TGNet (for performance comparison). I ha
 ## Contact
 Keeyoung Kim (kykim@sunykorea.ac.kr), Siho Han
 
-<img src="/.assets/ingenioai_logo1.png" height="48">       <img src="/.assets/kornatus_logo1.png" height="36">
-
+## Acknowledgement
+This project is supported by IngenioAI Co.,Ltd. <img src="/.assets/ingenioai_logo1.png" height="48"> and Kornatus Co.,Ltd. <img src="/.assets/kornatus_logo1.png" height="36">
