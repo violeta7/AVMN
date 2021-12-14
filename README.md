@@ -9,6 +9,7 @@ I have refered the original TGNet implementation a lot for my implemetation of T
     - validation (00:00 Feb. 9th ~ 00:00 Mar. 1st 2015)
     - test (00:00 Mar. 1st ~ 00:00 Apr. 1st 2015)
     - Please note that filename is 'nyc_taxi_expscale_100%_1000m_5min_train/test/test2_{date-range}.pkl', respectively.
+    - Official NYC TLC dataset homepage is https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
 2. 'data_gen8+9 final.ipynb' provides Sampling and creating training example processes. Set mode = ['train'/'test'/'test2'], sampl_rate = [1.0, 0.5, 0.2, 0.1, 0.05, 0.01, 0.001] and label_smoothing = False, then 'Restart and Run all.' Please note that the files for the 0.15% sampling case (sampl_rate=0.001) has 0% in their filename. Pre-created training examples are in in_and_out3_x.tar.gz file. Because file size cannot exceed 100MB, we only include training examples for [5%, 1%, 0.15%] sampling rate.
     ```python
