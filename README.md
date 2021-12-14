@@ -1,8 +1,7 @@
 # AVMN (Accumulative  Volume  Map  Network)
 
 This is the implementation for my paper: "AVMN: Deep Learning for Forecasting Taxi Demands using Extremely Sparse Trip Records."
-This has AVMN's sourcecode, as well as my implementation of TGNet (for performance comparison).
-I have refered the original TGNet implementation a lot for my implemetation of TGNet. Original TGNet sourcecode implemented by its author can be found here: https://github.com/LeeDoYup/TGGNet-keras
+This also includes my implementation of TGNet (for performance comparison). I have refered the original TGNet implementation a lot for my implemetation. The original TGNet sourcecode implemented by its author can be found here: https://github.com/LeeDoYup/TGGNet-keras
 
 1. './datasets_expscale_both/' includes volume maps for NYC TLC from Jan. 2015 to Mar. 2015, which are downloaded from official NYC TLC homepage (https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) and preprocessed into normal volume map.
     - train (00:00 Jan. 1st ~ 00:00 Feb. 9th 2015)
